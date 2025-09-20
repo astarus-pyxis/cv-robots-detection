@@ -15,6 +15,7 @@ L'envoi des données par module LoRa n'a pas été implémenté.
 
 ## Organisation du dépôt
 
+```
 + src               
 | aruco.py
 | constants.py
@@ -30,6 +31,7 @@ L'envoi des données par module LoRa n'a pas été implémenté.
 + normalizedImages
 + npz
 + json
+```
 
 - npz contient le fichier NPZ obtenu à la calibration de la caméra, utilisé par les codes Python
 
