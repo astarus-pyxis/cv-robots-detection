@@ -15,20 +15,21 @@ L'envoi des données par module LoRa n'a pas été implémenté.
 
 ## Organisation du dépôt
 
-> src               > aruco.py
-                    > constants.py
-                    > detectRobotsInsideAruco.py
-                    > imageNormalizer.py
-                    > test_capture_jpeg.py
-                    > test_para.py
-                    > test.py
-                    > undistort.py
-                    > calibrateCamera.py (présent dans cmd uniquement)
-                
-> platformImages
-> normalizedImages
-> npz
-> json
++ src               
+| aruco.py
+| constants.py
+| detectRobotsInsideAruco.py
+| imageNormalizer.py
+| test_capture_jpeg.py
+| test_para.py
+| test.py
+| undistort.py
+| calibrateCamera.py (présent dans cmd uniquement)
+
++ platformImages
++ normalizedImages
++ npz
++ json
 
 - npz contient le fichier NPZ obtenu à la calibration de la caméra, utilisé par les codes Python
 
